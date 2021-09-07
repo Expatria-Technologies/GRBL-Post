@@ -63,7 +63,7 @@
 :ATTRSEL=N
 :ATTRINLEN=60
 :ATTRSHORT=Controller Type
-:ATTRDEFAULT=GRBL
+:ATTRDEFAULT=GRBLHAL
 :CODETYPE=FORMAT
 :WORD_ADDRESS_BEF=|(|CONTROLLER=
 :WORD_ADDRESS_AFT=|)
@@ -88,7 +88,7 @@
 :ATTRSEL=N
 :ATTRINLEN=10
 :ATTRSHORT=Traverse Rate
-:ATTRDEFAULT=2500
+:ATTRDEFAULT=4500
 :ATTREND
 *-----------------------------------
 :ATTRNAME=SYS LICENSE
@@ -124,7 +124,7 @@
 :ATTREND
 *-----------------------------------
 :LIBRARY=.\GRBL-Post.LIB
-:LIBRARY=..\..\..\..\CAMWorksData\UPG-2\MasterLibraryFiles\MILL.LIB
+:LIBRARY=..\..\CAMWorksData\UPG-2\MasterLibraryFiles\MILL.LIB
 *-----------------------------------
 :ATTRNAME=setup
 :ATTRTYPE=LIST
@@ -280,226 +280,6 @@
 :OPERLIST=interpolation angle step
 :OPERLIST=using int distance
 :OPERLIST=interpolation distance
-:OPERLIST=auto angle pair
-:OPERLIST=other angle pair
-:OPERLIST=angle change limit
-:OPERLIST=interpolation angle step
-:OPERLIST=using int distance
-:OPERLIST=interpolation distance
-:OPERLIST=tool retract distance
-:OPERLIST=pole angle tolerance
-:OPERLIST=auto pole angle
-:OPERLIST=pole handling
-:OPERLIST=interpolation type
-:OPERLIST=retract and rewind
-:OPERLIST=rewind angle
-:OPERLIST=multiaxis best solution
-:OPERLIST=multiaxis rotary angle
-:OPERLIST=use machine limits
-:OPERLIST=auto angle pair
-:OPERLIST=other angle pair
-:OPERLIST=angle change limit
-:OPERLIST=interpolation angle step
-:OPERLIST=using int distance
-:OPERLIST=interpolation distance
-:OPERLIST=auto angle pair
-:OPERLIST=other angle pair
-:OPERLIST=angle change limit
-:OPERLIST=interpolation angle step
-:OPERLIST=using int distance
-:OPERLIST=interpolation distance
-:OPERLIST=tool retract distance
-:OPERLIST=pole angle tolerance
-:OPERLIST=auto pole angle
-:OPERLIST=pole handling
-:OPERLIST=interpolation type
-:OPERLIST=retract and rewind
-:OPERLIST=rewind angle
-:OPERLIST=multiaxis best solution
-:OPERLIST=multiaxis rotary angle
-:OPERLIST=use machine limits
-:OPERLIST=auto angle pair
-:OPERLIST=other angle pair
-:OPERLIST=angle change limit
-:OPERLIST=interpolation angle step
-:OPERLIST=using int distance
-:OPERLIST=interpolation distance
-:OPERLIST=auto angle pair
-:OPERLIST=other angle pair
-:OPERLIST=angle change limit
-:OPERLIST=interpolation angle step
-:OPERLIST=using int distance
-:OPERLIST=interpolation distance
-:OPERLIST=tool retract distance
-:OPERLIST=pole angle tolerance
-:OPERLIST=auto pole angle
-:OPERLIST=pole handling
-:OPERLIST=interpolation type
-:OPERLIST=retract and rewind
-:OPERLIST=rewind angle
-:OPERLIST=multiaxis best solution
-:OPERLIST=multiaxis rotary angle
-:OPERLIST=use machine limits
-:OPERLIST=auto angle pair
-:OPERLIST=other angle pair
-:OPERLIST=angle change limit
-:OPERLIST=interpolation angle step
-:OPERLIST=using int distance
-:OPERLIST=interpolation distance
-:OPERLIST=auto angle pair
-:OPERLIST=other angle pair
-:OPERLIST=angle change limit
-:OPERLIST=interpolation angle step
-:OPERLIST=using int distance
-:OPERLIST=interpolation distance
-:OPERLIST=tool retract distance
-:OPERLIST=pole angle tolerance
-:OPERLIST=auto pole angle
-:OPERLIST=pole handling
-:OPERLIST=interpolation type
-:OPERLIST=retract and rewind
-:OPERLIST=rewind angle
-:OPERLIST=multiaxis best solution
-:OPERLIST=multiaxis rotary angle
-:OPERLIST=use machine limits
-:OPERLIST=auto angle pair
-:OPERLIST=other angle pair
-:OPERLIST=angle change limit
-:OPERLIST=interpolation angle step
-:OPERLIST=using int distance
-:OPERLIST=interpolation distance
-:OPERLIST=auto angle pair
-:OPERLIST=other angle pair
-:OPERLIST=angle change limit
-:OPERLIST=interpolation angle step
-:OPERLIST=using int distance
-:OPERLIST=interpolation distance
-:OPERLIST=tool retract distance
-:OPERLIST=pole angle tolerance
-:OPERLIST=auto pole angle
-:OPERLIST=pole handling
-:OPERLIST=interpolation type
-:OPERLIST=retract and rewind
-:OPERLIST=rewind angle
-:OPERLIST=multiaxis best solution
-:OPERLIST=multiaxis rotary angle
-:OPERLIST=use machine limits
-:OPERLIST=auto angle pair
-:OPERLIST=other angle pair
-:OPERLIST=angle change limit
-:OPERLIST=interpolation angle step
-:OPERLIST=using int distance
-:OPERLIST=interpolation distance
-:OPERLIST=auto angle pair
-:OPERLIST=other angle pair
-:OPERLIST=angle change limit
-:OPERLIST=interpolation angle step
-:OPERLIST=using int distance
-:OPERLIST=interpolation distance
-:OPERLIST=tool retract distance
-:OPERLIST=pole angle tolerance
-:OPERLIST=auto pole angle
-:OPERLIST=pole handling
-:OPERLIST=interpolation type
-:OPERLIST=retract and rewind
-:OPERLIST=rewind angle
-:OPERLIST=multiaxis best solution
-:OPERLIST=multiaxis rotary angle
-:OPERLIST=use machine limits
-:OPERLIST=auto angle pair
-:OPERLIST=other angle pair
-:OPERLIST=angle change limit
-:OPERLIST=interpolation angle step
-:OPERLIST=using int distance
-:OPERLIST=interpolation distance
-:OPERLIST=auto angle pair
-:OPERLIST=other angle pair
-:OPERLIST=angle change limit
-:OPERLIST=interpolation angle step
-:OPERLIST=using int distance
-:OPERLIST=interpolation distance
-:OPERLIST=tool retract distance
-:OPERLIST=pole angle tolerance
-:OPERLIST=auto pole angle
-:OPERLIST=pole handling
-:OPERLIST=interpolation type
-:OPERLIST=retract and rewind
-:OPERLIST=rewind angle
-:OPERLIST=multiaxis best solution
-:OPERLIST=multiaxis rotary angle
-:OPERLIST=use machine limits
-:OPERLIST=auto angle pair
-:OPERLIST=other angle pair
-:OPERLIST=angle change limit
-:OPERLIST=interpolation angle step
-:OPERLIST=using int distance
-:OPERLIST=interpolation distance
-:OPERLIST=auto angle pair
-:OPERLIST=other angle pair
-:OPERLIST=angle change limit
-:OPERLIST=interpolation angle step
-:OPERLIST=using int distance
-:OPERLIST=interpolation distance
-:OPERLIST=tool retract distance
-:OPERLIST=pole angle tolerance
-:OPERLIST=auto pole angle
-:OPERLIST=pole handling
-:OPERLIST=interpolation type
-:OPERLIST=retract and rewind
-:OPERLIST=rewind angle
-:OPERLIST=multiaxis best solution
-:OPERLIST=multiaxis rotary angle
-:OPERLIST=use machine limits
-:OPERLIST=auto angle pair
-:OPERLIST=other angle pair
-:OPERLIST=angle change limit
-:OPERLIST=interpolation angle step
-:OPERLIST=using int distance
-:OPERLIST=interpolation distance
-:OPERLIST=auto angle pair
-:OPERLIST=other angle pair
-:OPERLIST=angle change limit
-:OPERLIST=interpolation angle step
-:OPERLIST=using int distance
-:OPERLIST=interpolation distance
-:OPERLIST=tool retract distance
-:OPERLIST=pole angle tolerance
-:OPERLIST=auto pole angle
-:OPERLIST=pole handling
-:OPERLIST=interpolation type
-:OPERLIST=retract and rewind
-:OPERLIST=rewind angle
-:OPERLIST=multiaxis best solution
-:OPERLIST=multiaxis rotary angle
-:OPERLIST=use machine limits
-:OPERLIST=auto angle pair
-:OPERLIST=other angle pair
-:OPERLIST=angle change limit
-:OPERLIST=interpolation angle step
-:OPERLIST=using int distance
-:OPERLIST=interpolation distance
-:OPERLIST=auto angle pair
-:OPERLIST=other angle pair
-:OPERLIST=angle change limit
-:OPERLIST=interpolation angle step
-:OPERLIST=using int distance
-:OPERLIST=interpolation distance
-:OPERLIST=tool retract distance
-:OPERLIST=pole angle tolerance
-:OPERLIST=auto pole angle
-:OPERLIST=pole handling
-:OPERLIST=interpolation type
-:OPERLIST=retract and rewind
-:OPERLIST=rewind angle
-:OPERLIST=multiaxis best solution
-:OPERLIST=multiaxis rotary angle
-:OPERLIST=use machine limits
-:OPERLIST=auto angle pair
-:OPERLIST=other angle pair
-:OPERLIST=angle change limit
-:OPERLIST=interpolation angle step
-:OPERLIST=using int distance
-:OPERLIST=interpolation distance
 :OPEREND
 *-----------------------------------
 :OPERID=MILL_SLICE_CUT
@@ -542,7 +322,7 @@
 :T:(Start of Tape)<EOL>
 :T:<BLANK><EOL>
 :T:(Made in : UPC)<EOL>
-:T:(G Code optimized for RS-CNC32 with GRBL V0.9j controller)<EOL>
+:T:(G Code optimized for GRBLHAL controller)<EOL>
 :T:<BLANK><EOL>
 :T:<S_PART_NUMBER><EOL>
 :T:<S_PART_NAME><EOL>
@@ -557,8 +337,7 @@
 :T:<BLANK><EOL>
 :T:(Init Tool Change)<EOL>
 :T:<N><TOOL_COMMENT><EOL>
-:T:<N><G:53><EOL>
-:T:<N><G:00> Z-2 <EOL>
+:T:<N><G:53><G:00> Z-2 <EOL>
 
 :T:<N><G!:work_coord><EOL>
 :T:<N><S!><M!:SPINDLE_DIR><EOL>
@@ -890,11 +669,9 @@
 *
 :SECTION=END_OF_TAPE
 :T:(End of Tape)<EOL>
-:T:<N><G:53><EOL>
-:T:<N><G:00> Z-2 <EOL>
+:T:<N><G:53><G:00> Z-2 <EOL>
 :T:<N><M:05><EOL>
 :T:<N><G:04> P1 <EOL>
-:T:<N><G:53><G:00> X-538 Y-568 <EOL>
 :T:<N><M:30><EOL>
 *
 *:SECTION=END_OF_TAPE_PRELOAD
@@ -1014,6 +791,14 @@
 :C: USING_5TH_AXIS_LOCK=NO
 :C: WORK_COORDINATE_SUPPORT=NO
 :C: WORK_AND_SUB_SUPPORT=NO
+:C: USING_HAAS_G10_L13=NO
+:C: USING_WORLD_COORDINATES=NO
+:C: SUPPORTING_CL_COOLANT=1
+:C: MAX_ARC_RADIUS=9999
+:C: USING_HAAS_G10_L13=NO
+:C: USING_WORLD_COORDINATES=NO
+:C: SUPPORTING_CL_COOLANT=1
+:C: MAX_ARC_RADIUS=9999
 :C: USING_HAAS_G10_L13=NO
 :C: USING_WORLD_COORDINATES=NO
 :C: SUPPORTING_CL_COOLANT=1
